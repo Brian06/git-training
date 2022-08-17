@@ -23,3 +23,35 @@ To avoid changes in `master` branch we are going to use different branches as ma
 
 * master: cherry-pick-master
 * feature branch: cherry-pick-feature
+
+### Steps
+
+To be able to see the folder where we are going to work we have to go to `cherry-pick-master` branch
+
+* `git switch "cherry-pick-master"`
+
+Find the commit id
+
+* `git log`
+* Copy the id of the commit that we want to cherry-pick (d6a885746ff4fe6a4d998f4bca3f6f1b8ffc9d74)
+
+Move to feature branch
+
+* `git switch "cherry-pick-feature"`
+
+Apply the changes in the feature branch
+
+* `git cherry-pick d6a885746ff4fe6a4d998f4bca3f6f1b8ffc9d74`
+
+Remove the commit from master branch, move to the main branch
+
+* `git switch "cherry-pick-master"`
+
+Find the commit id to come back
+
+* `git log`
+* copy the previous commit id(the one before the commit by mistake) (4ce37f99d7ccfd14d506a4cd95aa149225bc8c04)
+
+Reset the branch to the selected commit
+
+* `git reset 4ce37f99d7ccfd14d506a4cd95aa149225bc8c04 --hard`
