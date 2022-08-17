@@ -36,15 +36,6 @@
       if (window.dataLayer) window.dataLayer.push(gaData);
     }
 
-    function reloadCachePage() {
-      // Reload page if back navigation cache -- https://developer.mozilla.org/en-US/docs/Web/API/PageTransitionEvent/persisted
-      $(window).on('pageshow', function (event) {
-        if (event.persisted || window.performance.navigation.type === 2) {
-          window.location.reload();
-        }
-      });
-    }
-
     function getUrlQueryParams() {
       const urlSearchParams = new URLSearchParams(location.search);
       const queryParams = {};
@@ -183,7 +174,6 @@
 
     return {
       track: googleAnalyticsTracking,
-      reloadCachePage,
       getUrlQueryParams,
       capitalize,
       storeFormattedData,
@@ -1069,7 +1059,6 @@
   // =======================================================================
 
   const initialize = (function () {
-    Utils.reloadCachePage();
     Utils.setTrafficType();
     Utils.setURLParamsData();
     Utils.showOrHideCatfishLogo();
