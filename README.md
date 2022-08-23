@@ -32,3 +32,15 @@ You must configure a remote that points to the origin version of a repository(up
 * `git remote add upstream git@github.com:yodarjun/git-training.git`
 * Verify the new upstream repository you've specified for your fork.
   * `git remote -v`
+ 
+### Update your fork
+
+To get new branches:
+* `git fetch upstream`
+
+To update master branch
+* `git switch master`
+* `git rebase upstream/master`
+* `git push`
+
+ 
