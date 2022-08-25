@@ -1,0 +1,9 @@
+<svg width="89" height="89" xmlns="http://www.w3.org/2000/svg">
+    <g fill="none" fill-rule="evenodd">
+        <circle cx="43.5" cy="43.5" r="43.5" fill="#FFF" fill-rule="nonzero" stroke="#1F2F64" stroke-width="1.46" transform="translate(1 1)"/>
+        <path d="M44.998 73C32 63.77 24.654 51.087 22 33.288c4.785-2.103 7.918-6.004 9.346-11.63C35.71 20.018 42.857 17.696 45.002 17c2.146.695 9.284 3.017 13.637 4.659 1.429 5.62 4.567 9.52 9.361 11.629C65.332 51.087 57.99 63.77 44.998 73z" stroke="#1F2E64" stroke-width="1.46" fill="#FFF" stroke-linejoin="round"/>
+        <path d="M44.998 65C35.391 58.243 29.961 48.956 28 35.925c3.536-1.54 5.852-4.396 6.908-8.514 3.225-1.202 8.508-2.902 10.094-3.411 1.585.509 6.861 2.209 10.08 3.41 1.055 4.116 3.374 6.972 6.918 8.515C60.028 48.956 54.602 58.243 44.998 65z" stroke="#1F2E64" stroke-width="1.46" fill="#FFF" stroke-linejoin="round"/>
+        <path d="M39 40v7.455A2.545 2.545 0 0 0 41.545 50h6.91A2.545 2.545 0 0 0 51 47.455V40h0-12zM42 40v-3a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v3h0" stroke="#FAB71B" stroke-width="1.46" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M44.559 44.893v1.545a.442.442 0 1 0 .881 0v-1.545c.332-.162.56-.5.56-.893a1 1 0 0 0-2 0c0 .394.228.73.559.893" fill="#FAB71B"/>
+    </g>
+</svg>

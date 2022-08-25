@@ -1,0 +1,491 @@
+/* ************************************************** !!
+/* CSS CONTENTS ----------------------------------------
+--------------------------------------------------------
+--| General
+--| Hero
+----| Features
+--| Testimonials
+--| Satisfaction & Security
+--| Open Hours
+--| Disclaimer
+--------------------------------------------------------
+----------------------------------------------------- */
+
+
+/* --------------------------------------------------------
+--- General Styles ---
+--------------------------------------------------------- */
+
+@font-face {
+  font-family: 'Publica Sans';
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  src: url('../fonts/publicasans-light-webfont.woff2') format('woff2'),
+  url('../fonts/publicasans-light-webfont.woff') format('woff'),
+  url('../fonts/publicasans-light-webfont.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Publica Sans';
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  src: url('../fonts/publicasans-regular-webfont.woff2') format('woff2'),
+  url('../fonts/publicasans-regular-webfont.woff') format('woff'),
+  url('../fonts/publicasans-regular-webfont.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Publica Sans';
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  src: url('../fonts/publicasans-medium-webfont.woff2') format('woff2'),
+  url('../fonts/publicasans-medium-webfont.woff') format('woff'),
+  url('../fonts/publicasans-medium-webfont.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Publica Sans';
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  src: url('../fonts/publicasans-bold-webfont.woff2') format('woff2'),
+  url('../fonts/publicasans-bold-webfont.woff') format('woff'),
+  url('../fonts/publicasans-bold-webfont.ttf') format('truetype');
+}
+
+h1,
+h2,
+h3,
+a {
+  font-family: 'Publica Sans';
+  letter-spacing: normal;
+  color: #1f2e64;
+}
+
+p {
+  font-family: 'Source Sans Pro', sans-serif;
+  letter-spacing: normal;
+  font-size: 16px;
+  margin: 0;
+  color: #000;
+}
+
+h1 {
+  font-size: 28px;
+  line-height: 1.29;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 42px;
+  }
+  h2 {
+    font-size: 24px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 992px) {
+  h1 {
+    font-size: 52px;
+  }
+  h2 {
+    font-size: 28px;
+  }
+  h3 {
+    font-size: 22px;
+  }
+}
+
+
+/* --------------------------------------------------------
+--- Hero ---
+--------------------------------------------------------- */
+
+.gradient-background {
+  background-image: linear-gradient(to bottom, #fff, #f5f7ff);
+}
+
+nav {
+  padding: 12px 0;
+}
+
+.hero {
+  padding: 15px 0 2px;
+}
+
+nav img {
+  width: 118px;
+  height: 36px;
+}
+
+.hero h1 {
+  max-width: 275px;
+  text-align: center;
+  margin: 0 auto 24px;
+}
+
+.hero-cta {
+  font-size: 21px;
+  font-weight: 600;
+  width: 222px;
+  height: 55px;
+  border-radius: 28px;
+  box-shadow: 0 1px 3px 0 rgba(31, 46, 100, 0.2);
+  background-color: #facb1b;
+  color: #1f2e64;
+  display: block;
+  padding: 12px 24px;
+  margin: 0 auto 32px;
+  transition: all 0.25s;
+}
+
+.hero-cta:focus,
+.hero-cta:hover {
+  text-decoration: none;
+  color: #535353;
+  background-color: #fab71b;
+}
+
+/* --- Features --- */
+
+.features h2 {
+  text-align: center;
+  margin: 0 auto 26px;
+}
+
+.feature {
+  margin: 0 0 31px;
+}
+
+.feature img {
+  width: 57px;
+  height: 57px;
+  margin: 0 9px 0 3px;
+}
+
+.feature h3 {
+  margin: 0 0 4px;
+}
+
+@media (min-width: 768px) {
+  .hero {
+    padding: 30px 0 0;
+  }
+  nav img {
+    width: 138px;
+    height: 41px;
+  }
+  .hero h1 {
+    max-width: 675px;
+    margin: 0 auto 32px;
+  }
+  .hero-cta {
+    font-size: 24px;
+    width: 262px;
+    height: 65px;
+    border-radius: 33px;
+    padding: 14px 32px;
+    margin: 0 auto 40px;
+  }
+  .features h2 {
+    margin: 0 auto 34px;
+  }
+  .feature {
+    margin: 0 0 52px;
+  }
+  .feature:nth-child(3),
+  .feature:nth-child(4) {
+    margin: 0 0 40px;
+  }
+  .feature img {
+    width: 70px;
+    height: 70px;
+    margin: 0 13px 0 2px;
+  }
+  .feature h3 {
+    margin: 0 0 8px;
+  }
+}
+
+@media (min-width: 992px) {
+  .hero {
+    padding: 49px 0 67px;
+  }
+  nav img {
+    width: 152px;
+    height: 45px;
+  }
+  .hero h1 {
+    max-width: 658px;
+    text-align: left;
+    margin: 0 0 40px;
+  }
+  .hero-cta {
+    font-size: 26px;
+    width: 308px;
+    height: 75px;
+    padding: 16px 47px;
+    margin: 0;
+    border-radius: 38px;
+  }
+  .features h2 {
+    margin: 0 0 40px;
+  }
+  .feature {
+    text-align: center;
+    margin: 0 0 40px;
+  }
+  .feature:nth-child(3),
+  .feature:nth-child(4) {
+    margin: 0;
+  }
+  .feature img {
+    width: 92px;
+    height: 92px;
+    margin: 0 auto 12px;
+  }
+  .feature p {
+    font-size: 18px;
+  }
+}
+
+
+/* --------------------------------------------------------
+--- Testimonials ---
+--------------------------------------------------------- */
+
+.testimonials {
+  padding: 40px 0 54px;
+  border-bottom: 1px solid #d3d3d7;
+}
+
+.testimonials h2 {
+  text-align: center;
+  margin: 0 auto 48px;
+}
+
+.testimonial-item {
+  max-width: 290px;
+  margin: 0 auto;
+  padding: 31px 15px 40px;
+  border-radius: 4px;
+  box-shadow: 0 2px 16px 0 rgba(31, 46, 100, 0.4);
+  position: relative;
+  text-align: center;
+}
+
+.testimonial-quote-icon--start,
+.testimonial-quote-icon--end {
+  position: absolute;
+  width: 42px;
+  height: 36px;
+}
+
+.testimonial-quote-icon--start {
+  top: -17px;
+  left: 13px;
+}
+
+.testimonial-quote-icon--end {
+  transform: rotate(180deg);
+  bottom: -17px;
+  right: 13px;
+}
+
+.testimonial-text {
+  font-size: 18px;
+  font-family: 'Publica Sans';
+  font-weight: 300;
+  font-style: italic;
+  color: #1f2e64;
+  margin: 0 auto 24px;
+}
+
+.testimonial-client {
+  font-size: 16px;
+  font-weight: bold;
+  color: #1f2e64;
+}
+
+.testimonial-ocuppation {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  .testimonial-item {
+    max-width: 595px;
+    padding: 32px 57px;
+  }
+  .testimonial-quote-icon--start {
+    left: 18px;
+  }
+  .testimonial-quote-icon--end {
+    right: 18px;
+  }
+  .testimonial-text {
+    font-size: 21px;
+    margin: 0 auto 20px;
+  }
+  .testimonial-client {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 992px) {
+  .testimonials {
+    padding: 52px 0 68px;
+  }
+  .testimonials h2 {
+    margin: 0 0 67px;
+  }
+  .testimonial-item {
+    max-width: 751px;
+    padding: 48px 122px 38px;
+  }
+  .testimonial-quote-icon--start,
+  .testimonial-quote-icon--end {
+    width: 55px;
+    height: 46px;
+  }
+  .testimonial-quote-icon--start {
+    top: -21px;
+    left: 30px;
+  }
+  .testimonial-quote-icon--end {
+    bottom: -21px;
+    right: 30px;
+  }
+  .testimonial-text {
+    font-size: 24px;
+    margin: 0 0 30px;
+  }
+  .testimonial-client {
+    font-size: 18px;
+  }
+  .testimonial-ocuppation {
+    font-size: 16px;
+  }
+}
+
+
+/* --------------------------------------------------------
+--- Satisfaction & Security ---
+--------------------------------------------------------- */
+
+.satisfaction-security {
+  padding: 40px 0 32px;
+  text-align: center;
+}
+
+.satisfaction {
+  margin: 0 0 40px;
+}
+
+.satisfaction img {
+  width: 132px;
+  height: 87px;
+  margin: 0 auto 20px;
+}
+
+.security img {
+  width: 87px;
+  height: 87px;
+  margin: 0 auto 24px;
+}
+
+@media (min-width: 768px) {
+  .satisfaction-security {
+    padding: 40px 0;
+    text-align: left;
+  }
+  .satisfaction {
+    margin: 0 0 25px;
+  }
+  .satisfaction img {
+    margin: 0 38px 0 0;
+  }
+  .security img {
+    margin: 0 58px 0 20px;
+  }
+  .satisfaction h3 {
+    font-size: 22px;
+  }
+  .satisfaction p {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 992px) {
+  .satisfaction-security {
+    padding: 52px 0;
+  }
+  .satisfaction {
+    margin: 0 0 40px;
+  }
+  .security img {
+    margin: 0 60px 0 20px;
+  }
+}
+
+
+/* --------------------------------------------------------
+--- Open Hours ---
+--------------------------------------------------------- */
+
+.open-hours {
+  padding: 20px 0;
+  background-color: #1f2e64;
+}
+
+.open-hours p {
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .open-hours {
+    padding: 28px 0;
+  }
+}
+
+
+/* --------------------------------------------------------
+--- Disclaimer ---
+--------------------------------------------------------- */
+
+.disclaimer {
+  padding: 24px 0 0;
+}
+
+.disclaimer p {
+  font-size: 14px;
+  color: #1f2e64;
+  margin: 0 0 24px;
+}
+
+.disclaimer a {
+  font-size: 14px;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-decoration: underline;
+}
+
+.acsb-container {
+  margin-bottom: 12px;
+}
